@@ -24,8 +24,43 @@
         >
       </div>
     </div>
-    <div class="header">Do you want to take a part in meditation course?</div>
-    <div class="form"></div>
-    <div></div>
+    <div class="right-side">
+      <div class="header-text">
+        Do you want to take a part in a fake meditation course? <br />
+        Sign up to get started!
+      </div>
+      <div class="form">
+        <form action="#" method="get">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="user_name" required />
+
+          <label for="surname">Surname</label>
+          <input type="text" id="surname" name="user_surname" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="user_email" required />
+
+          <label for="phone">Phone number</label>
+          <input type="tel" id="phone" name="user_number" />
+
+          <label for="pass">Password</label>
+          <input type="password" id="pass" name="user_pass" required />
+
+          <label for="confirm_pass">Confirm password</label>
+          <input
+            type="password"
+            id="confirm_pass"
+            name="user_confirm_pass"
+            required
+          />
+
+          <label for="exp">I have experience meditating</label>
+          <input type="radio" id="exp" name="experience" value="exp" />
+          <label for="no_exp">I DO NOT have experience meditating</label>
+          <input type="radio" id="no_exp" name="experience" value="no_exp" />
+        </form>
+        <button type="submit">Create Account</button>
+      </div>
+    </div>
   </body>
 </html>

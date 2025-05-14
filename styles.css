@@ -130,3 +130,48 @@ img {
 a {
   color: white;
 }
+
+.right-side {
+  display: flex;
+  width: 60vw;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(0, 0%, 50%, 0.24);
+}
+
+.header-text {
+  font-size: 2rem;
+}
+
+form {
+  width: 60vw;
+  background-color: white;
+  padding: 20px 230px 20px 230px;
+}
+label {
+  display: block;
+}
+
+button {
+  background-color: #d39b8e;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  margin-left: 230px;
+  margin-top: 20px;
+}
+
+button:active {
+  background-color: hwb(10 56% 17% / 0.671);
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input:valid {
+  border-color: green;
+}
