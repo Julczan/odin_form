@@ -169,9 +169,27 @@ button:active {
 }
 
 input:invalid {
-  border-color: red;
+  border: 2px solid red;
+}
+input:invalid + span::before {
+  content: "✖";
+  color: red;
+}
+
+input:valid + span::before {
+  content: "✓";
+  color: green;
 }
 
 input:valid {
   border-color: green;
+}
+
+input:focus {
+  border: solid 2px grey;
+}
+input[type="radio"] {
+  position: relative;
+  top: -23px;
+  left: -20px;
 }
